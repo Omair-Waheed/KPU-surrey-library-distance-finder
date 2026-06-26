@@ -9,13 +9,13 @@ const library = {
 };
 
 function initMap() {
-    map = Leaflet.map("map").setView([library.latitude, library.longitude], 13);
+    map = L.map("map").setView([library.latitude, library.longitude], 13);
 
-    Leaflet.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: "© OpenStreetMap"
     }).addTo(map);
 
-    Leaflet.marker([library.latitude, library.longitude])
+    L.marker([library.latitude, library.longitude])
         .addTo(map)
         .bindPopup("KPU Surrey Library");
 }
@@ -30,7 +30,7 @@ function updateLocation() {
         document.getElementById("longitude").textContent = longitude;
 
         if (!userMarker) {
-            userMarker = Leaflet.marker([latitude, longitude])
+            userMarker = L.marker([latitude, longitude])
                 .addTo(map)
                 .bindPopup("You are here");
         } else {
