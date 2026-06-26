@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: lightgrey;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.info-main {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.distance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #dc3a3a;
+}
+
+#map {
+    height: 800px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

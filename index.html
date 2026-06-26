@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Distance to KPU Surrey Library</title>
+	<meta name="description" content="Calculates current distance to KPU Surrey Library on load and on refresh.">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>KPU Surrey Library Distance Tracker</h1>
+        <p>
+            This application displays your current location on a map and
+            calculates your distance to the KPU Surrey Library.
+        </p>
+    </header>
+
+    <main>
+
+        <!-- Information Panel -->
+        <section class="info-main">
+
+            <h2>Your Location</h2>
+
+            <div class="info-grid">
+
+                <div>
+                    <strong>Latitude</strong>
+                    <p id="latitude">Loading...</p>
+                </div>
+
+                <div>
+                    <strong>Longitude</strong>
+                    <p id="longitude">Loading...</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <h2>Distance to KPU Surrey Library</h2>
+
+            <p id="distance" class="distance">
+                Calculating...
+            </p>
+
+            <p id="lastUpdated">
+                Last Updated: --
+            </p>
+
+            <button id="refreshBtn">
+                Refresh My Location
+            </button>
+
+        </section>
+
+        <!-- Map -->
+        <section class="map-section">
+
+            <div id="map"></div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            HTML/CSS by OpenAI ChatGPT free version.
+			JavaScript by Omair Waheed.
+			For Prof. Wei Li INFO 4235 Midterm.
+            Uses HTML, CSS, JavaScript, Leaflet, and OpenStreetMap.
+        </p>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+    <!-- Your JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
