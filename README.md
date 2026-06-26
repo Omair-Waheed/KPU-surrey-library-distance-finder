@@ -64,14 +64,14 @@ The application uses the browser's Geolocation API to obtain the user's current 
 
 Visit the GitHub Pages website:
 
-> *https://omair-waheed.github.io/Location-to-KPU-Surrey-Library/*
+> *https://omair-waheed.github.io/KPU-surrey-library-distance-finder/*
 
 ### Option 2
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/Omair-Waheed/Location-to-KPU-Surrey-Library.git
+git clone https://github.com/Omair-Waheed/KPU-surrey-library-distance-finder.git
 ```
 
 Open the project using a local web server.
