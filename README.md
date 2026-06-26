@@ -39,8 +39,7 @@ The application uses the browser's Geolocation API to obtain the user's current 
 ├── index.html
 ├── style.css
 ├── script.js
-├── README.md
-└── images/
+└── README.md
 ```
 
 ---
@@ -65,7 +64,7 @@ The application uses the browser's Geolocation API to obtain the user's current 
 
 Visit the GitHub Pages website:
 
-> *(Insert GitHub Pages URL here)*
+> *https://omair-waheed.github.io/Location-to-KPU-Surrey-Library/*
 
 ### Option 2
 
