@@ -83,8 +83,10 @@ Open the project using a local web server.
 ## Screenshots
 
 ### Main Application
+<img width="645" height="1164" alt="IMG_4985" src="https://github.com/user-attachments/assets/05d64e33-c783-475b-b4bf-be1805adc2a8" />
 
-*(Insert screenshot after completing the project.)*
+### Location Access
+<img width="645" height="1180" alt="IMG_4984" src="https://github.com/user-attachments/assets/c6b0863e-d564-4bbc-963b-54d272c2aa04" />
 
 ---
 
